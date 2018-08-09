@@ -155,7 +155,8 @@ extension AGVideoPlayerView {
         playIcon.autoresizingMask = [.flexibleTopMargin, .flexibleBottomMargin, .flexibleLeftMargin, .flexibleRightMargin]
         
         addSubview(previewImageView!)
-        customControlsContentView?.addSubview(playIcon)
+        previewImageView?.addSubview(playIcon)
+//        customControlsContentView?.addSubview(playIcon)
         addSubview(customControlsContentView!)
         let playAction = UITapGestureRecognizer(target: self, action: #selector(didTapPlay))
         playIcon.addGestureRecognizer(playAction)

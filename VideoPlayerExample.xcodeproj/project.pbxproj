@@ -119,7 +119,6 @@
 				052DC6D41F2F5644004D7931 /* Frameworks */,
 				052DC6D51F2F5644004D7931 /* Resources */,
 				370914FCC24978816B59516F /* [CP] Embed Pods Frameworks */,
-				7EC9DFB1E2FEA5856BC09DBC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -142,6 +141,7 @@
 				TargetAttributes = {
 					052DC6D61F2F5644004D7931 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ACJ6PD7A2R;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -200,21 +200,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoPlayerExample/Pods-VideoPlayerExample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7EC9DFB1E2FEA5856BC09DBC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoPlayerExample/Pods-VideoPlayerExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BFBD76A97E4B839E7A0AF286 /* [CP] Check Pods Manifest.lock */ = {
@@ -368,6 +353,7 @@
 			baseConfigurationReference = B26DA0593AC8CD33405E7ACE /* Pods-VideoPlayerExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ACJ6PD7A2R;
 				INFOPLIST_FILE = VideoPlayerExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -382,6 +368,7 @@
 			baseConfigurationReference = 24CB346AED97051837D1B964 /* Pods-VideoPlayerExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ACJ6PD7A2R;
 				INFOPLIST_FILE = VideoPlayerExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
